@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Single file upload 성공</h2>
+	<h2>Multi file upload 성공</h2>
 </body>
 </html>

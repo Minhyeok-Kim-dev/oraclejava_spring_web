@@ -17,7 +17,14 @@
 	        <property name="suffix" value=".jsp"/>
 	</bean>
 
-	<mvc:resources location="/resources/js/" mapping="/js/**"/>
+	<mvc:resources location="/resources/" mapping="/resources/**"/>
+	
+	<!--
+	<mvc:resources location="/resources/css/" mapping="/css/**"/>
+	<mvc:resources location="/resources/html/" mapping="/html/**"/>
+	<mvc:resources location="/resources/image/" mapping="/image/**"/>
+	<mvc:resources location="/resources/js/" mapping="/js/**"/> 
+	-->
 	
 	<!-- File upload -->
 	<bean id="multipartResolver"
